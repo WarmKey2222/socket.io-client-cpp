@@ -1,7 +1,7 @@
 ## Install
 
 ### With CMake
-1. Install boost, see [Boost setup](./INSTALL.md#boost_setup) section.
+1. Install boost, see [Boost setup](#Boost-setup) section.
 2. Use `git clone --recurse-submodules https://github.com/socketio/socket.io-client-cpp.git` to clone your local repo.
 3. Run `cmake -DBOOST_ROOT:STRING=<your boost install folder> -DBOOST_VER:STRING=<your boost version> ./`
 4. Run `make install`(if makefile generated) or open generated project (if project file generated) to build.
